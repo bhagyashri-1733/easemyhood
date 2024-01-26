@@ -8,18 +8,20 @@ const Footer = () => {
             <h5 className="lg:text-4xl text-3xl mb:mb-0 mb-6 lg:leading-mormal font-semibold md:w-2/5"> 
             <span className="text-white">easemyhood
                 </span></h5>
-            <div className='flex'>
+            <div className=' flex md:inline sm:inline flex-col'>
                 <input
                 type="text"
                 placeholder="Name"
                 className="text-gray-800
-                sm:w-72 w-full sm:mr-5 mr-1 lg:mb-4 mb-4 py-2.5 rounded-xl px-2 focus:outline-none">
+                sm:w-72 w-full sm:mr-5 mr-1 lg:mb-4 mb-4 py-2.5  rounded-xl px-2 focus:outline-none "
+                >
                 </input>
                 <input
                 type="email"
                 placeholder="example@gmail.com"
                 className="text-gray-800
-                sm:w-72 w-full sm:mr-5 mr-1 lg:mb-4 mb-4 py-2.5 rounded-xl px-2 focus:outline-none">
+                sm:w-72 w-full sm:mr-5 mr-1 lg:mb-4 mb-4 flex-col  py-2.5 rounded-xl px-2 focus:outline-none 
+                ">
                 </input> 
                 <button className='bg-white text-black rounded-xl h-12 w-20 font-semibold '> Sign Up</button>
             </div>
